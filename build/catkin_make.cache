@@ -1,0 +1,2 @@
+chapter2/learning_tf:chapter2/topic_demo:chapter4/arbotix_ros/arbotix:chapter4/arbotix_ros/arbotix_controllers:chapter4/arbotix_ros/arbotix_firmware:chapter4/arbotix_ros/arbotix_msgs:chapter4/arbotix_ros/arbotix_python:chapter4/arbotix_ros/arbotix_sensors:chapter4/mbot_description:chapter4/mbot_gazebo:chapter4/mbot_teleop:chapter5/robot_vision:chapter5/robot_voice
+-DCATKIN_DEVEL_PREFIX=/home/hyh/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hyh/catkin_ws/install -G Unix Makefiles
