@@ -1,9 +1,0 @@
- <launch>
-    <!-- 海龟仿真器 -->
-    <node pkg="topic_demo" type="pylistener.py" name="pylistener" output="screen"/>
-
-    <!--新建一个参考坐标系-->
-    <node pkg="topic_demo" type="pytalker.py" name="pytalker" output="screen"/>
-
-
- </launch>
