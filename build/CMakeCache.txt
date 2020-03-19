@@ -109,7 +109,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=
+CATKIN_WHITELIST_PACKAGES:STRING=plugin_calculator
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -830,6 +830,9 @@ hardware_interface_DIR:PATH=/opt/ros/kinetic/share/hardware_interface/cmake
 //The directory containing a CMake configuration file for hector_mapping.
 hector_mapping_DIR:PATH=/opt/ros/kinetic/share/hector_mapping/cmake
 
+//The directory containing a CMake configuration file for household_objects_database_msgs.
+household_objects_database_msgs_DIR:PATH=/opt/ros/kinetic/share/household_objects_database_msgs/cmake
+
 //The directory containing a CMake configuration file for ignition-math2.
 ignition-math2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-math2
 
@@ -872,8 +875,35 @@ learning_tf_SOURCE_DIR:STATIC=/home/hyh/catkin_ws/src/chapter2/learning_tf
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for manipulation_msgs.
+manipulation_msgs_DIR:PATH=/opt/ros/kinetic/share/manipulation_msgs/cmake
+
 //The directory containing a CMake configuration file for map_server.
 map_server_DIR:PATH=/opt/ros/kinetic/share/map_server/cmake
+
+//Value Computed by CMake
+marm_description_BINARY_DIR:STATIC=/home/hyh/catkin_ws/build/chapter7/marm_description
+
+//Value Computed by CMake
+marm_description_SOURCE_DIR:STATIC=/home/hyh/catkin_ws/src/chapter7/marm_description
+
+//Value Computed by CMake
+marm_gazebo_BINARY_DIR:STATIC=/home/hyh/catkin_ws/build/chapter7/marm_gazebo
+
+//Value Computed by CMake
+marm_gazebo_SOURCE_DIR:STATIC=/home/hyh/catkin_ws/src/chapter7/marm_gazebo
+
+//Value Computed by CMake
+marm_moveit_config_BINARY_DIR:STATIC=/home/hyh/catkin_ws/build/chapter7/marm_moveit_config
+
+//Value Computed by CMake
+marm_moveit_config_SOURCE_DIR:STATIC=/home/hyh/catkin_ws/src/chapter7/marm_moveit_config
+
+//Value Computed by CMake
+marm_planning_BINARY_DIR:STATIC=/home/hyh/catkin_ws/build/chapter7/marm_planning
+
+//Value Computed by CMake
+marm_planning_SOURCE_DIR:STATIC=/home/hyh/catkin_ws/src/chapter7/marm_planning
 
 //Value Computed by CMake
 mbot_bringup_BINARY_DIR:STATIC=/home/hyh/catkin_ws/build/chapter6/mbot_bringup
@@ -1571,7 +1601,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=47
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
